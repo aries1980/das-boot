@@ -1,0 +1,5 @@
+---
+- name: Ansible Playbook for laptop configuration
+  hosts: laptop
+  roles:
+    - { role: aries1980.laptop-wsl, become: yes }
