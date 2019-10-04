@@ -1,0 +1,5 @@
+- src: andrewrothstein.terraform
+  version: "v2.2.28"
+
+- src: andrewrothstein.kubectl
+  version: "v1.1.26"
