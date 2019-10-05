@@ -3,5 +3,6 @@
   hosts: laptop
   roles:
     - { role: aries1980.laptop-wsl, become: yes }
+    - aries1980.k9s
     - andrewrothstein.kubectl
     - andrewrothstein.terraform

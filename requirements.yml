@@ -3,3 +3,5 @@
 
 - src: andrewrothstein.kubectl
   version: "v1.1.26"
+
+- src: aries1980.k9s

@@ -1,0 +1,5 @@
+---
+ansible_path: "{{ playbook_dir | replace('/ansible', '') }}"
+
+aws_region: "eu-west-2"
+terraform_ver: "0.12.9"
