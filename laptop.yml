@@ -4,5 +4,7 @@
   roles:
     - { role: aries1980.laptop-wsl, become: yes }
     - aries1980.k9s
+    - role: geerlingguy.dotfiles
+      when: install_dotfiles
     - andrewrothstein.kubectl
     - andrewrothstein.terraform
