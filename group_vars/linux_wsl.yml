@@ -6,6 +6,7 @@ packages:
 #    - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-26.noarch.rpm
   names:
     - ansible
+    - geeqie
     - jq
     - mc
     - screen
@@ -13,6 +14,9 @@ packages:
     - tig
     - tmux
     - vim
+    - whois
+
+install_dotfiles: yes
 
 installed_users:
   - aries
@@ -26,3 +30,5 @@ internal_user:
 
 ssh_key_location: "/home/{{ internal_user.name }}/.ssh/authorized_keys"
 
+dotfiles_repo: git://gitlab.com/aries1980/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
