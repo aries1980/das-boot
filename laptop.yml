@@ -6,5 +6,6 @@
     - aries1980.k9s
     - role: geerlingguy.dotfiles
       when: install_dotfiles
+    - role: gantsign.kops
     - andrewrothstein.kubectl
     - andrewrothstein.terraform
